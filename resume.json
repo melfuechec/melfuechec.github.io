@@ -1,0 +1,15 @@
+{
+    "basics": {
+      "name": "Mel Fuechec",
+      "label": "",
+      "picture": "https://www.gravatar.com/avatar/",
+      "email": "melular@gmail.com",
+      "website": "https://melfu.com",
+      "summary": "",
+      "phone": "(979) 541-6701",
+      "location": {
+        "city": "Austin",
+        "region": "Texas"
+      }
+    }
+}
