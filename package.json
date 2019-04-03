@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/melfuechec/github.io/issues"
   },
-  "homepage": "https://github.com/melfuechec/github.io#readme"
+  "homepage": "https://github.com/melfuechec/github.io#readme",
+  "devDependencies": {
+    "jsonresume-theme-flat_projects": "github:kevincolten/jsonresume-theme-flat_projects#84491e5",
+    "resume-cli": "github:kevincolten/resume-cli#b05d465"
+  }
 }
