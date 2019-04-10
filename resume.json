@@ -10,6 +10,13 @@
       "location": {
         "city": "Austin",
         "region": "Texas"
-      }
+      },
+      "profiles": [{
+        "network": "PDF Resume",
+        "username": "Mel Fuechec",
+        "url": "./MelFuechecResume.pdf"
+      }]
     }
+
+    
 }
