@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>TEST Mel Fuechec - Full Stack Web Developer</title>
+<title>Mel Fuechec - Full Stack Web Developer</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -13,7 +13,6 @@ body, html {
   color: #777;
   line-height: 1.8;
 }
-
 /* Create a Parallax Effect */
 .bgimg-1, .bgimg-2, .bgimg-3 {
   background-attachment: fixed;
@@ -21,19 +20,16 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 /* First image (Logo. Full height) */
 .bgimg-1 {
   background-image: url('beautiful-sky.jpg');
   min-height: 100%;
 }
-
 /* Second image (Portfolio) */
 .bgimg-2 {
   background-image: url("sky-sky.jpg");
   min-height: 400px;
 }
-
 /* Third image (Contact) */
 .bgimg-3 {
   background-image: url("blue-sky.jpg");
@@ -42,7 +38,6 @@ body, html {
 .w3-top { color: rgb(46, 41, 41);}
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
-
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1200px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
@@ -227,7 +222,6 @@ function onClick(element) {
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
 }
-
 // Change style of navbar on scroll
 window.onscroll = function() {myFunction()};
 function myFunction() {
@@ -238,7 +232,6 @@ function myFunction() {
         navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
     }
 }
-
 // Used to toggle the menu on small screens when clicking on the menu button
 function toggleFunction() {
     var x = document.getElementById("navDemo");
